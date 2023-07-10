@@ -27,10 +27,9 @@ public class ExampleUnitTest {
     @Test
     public void getCurrency() throws IOException{
         CurrencyApiService currencyApiService = new CurrencyApi().createCurrencyApiService();
-        Call<List<Currency>> call = currencyApiService.getCurrency();
-        List<Currency> currencies = call.execute().body();
-        assertNotNull(currencies);
-        assertFalse(currencies.isEmpty());
-        System.out.println(new Gson().toJson(currencies));
+        Call<Currency> call = currencyApiService.getCurrency();
+        Currency currency = call.execute().body();
+        assertNotNull(currency);
+        System.out.println(new Gson().toJson(currency));
     }
 }

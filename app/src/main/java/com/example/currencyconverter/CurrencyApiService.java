@@ -12,5 +12,5 @@ import retrofit2.http.GET;
 public interface CurrencyApiService {
 
     @GET(Constant.CURRENCY_END_POINT)
-    Call<List<Currency>> getCurrency();
+    Call<Currency> getCurrency();
 }

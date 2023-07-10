@@ -1,4 +1,6 @@
-package com.example.currencyconverter;
+package com.example.currencyconverter.network;
+
+import com.example.currencyconverter.Constant;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;

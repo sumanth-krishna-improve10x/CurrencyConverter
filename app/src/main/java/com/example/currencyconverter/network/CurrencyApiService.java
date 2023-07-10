@@ -1,6 +1,7 @@
-package com.example.currencyconverter;
+package com.example.currencyconverter.network;
 
 
+import com.example.currencyconverter.Constant;
 import com.example.currencyconverter.models.Currency;
 import com.example.currencyconverter.models.Data;
 

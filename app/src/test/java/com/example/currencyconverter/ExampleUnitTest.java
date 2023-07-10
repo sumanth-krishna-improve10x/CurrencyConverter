@@ -5,11 +5,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 import com.example.currencyconverter.models.Currency;
-import com.example.currencyconverter.models.Data;
+import com.example.currencyconverter.network.CurrencyApi;
+import com.example.currencyconverter.network.CurrencyApiService;
 import com.google.gson.Gson;
 
 import java.io.IOException;
-import java.util.List;
 
 import retrofit2.Call;
 
